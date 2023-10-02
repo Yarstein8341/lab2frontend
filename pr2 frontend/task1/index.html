@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Робота з стилями і класами</title>
+    <script>
+        window.onload = function () {
+
+            document.body.style.fontFamily = 'Arial';
+
+            var firstParagraph = document.getElementById('firstParagraph');
+            firstParagraph.style.color = 'orange';
+            firstParagraph.style.backgroundColor = 'yellow';
+            firstParagraph.style.fontSize = '16px';
+            firstParagraph.style.padding = '5px';
+            firstParagraph.style.textAlign = 'center';
+
+
+            var secondParagraph = document.getElementById('secondParagraph');
+            secondParagraph.style.color = 'blue';
+            secondParagraph.style.backgroundColor = 'lightblue';
+            secondParagraph.style.fontSize = '14px';
+            secondParagraph.style.padding = '5px';
+            secondParagraph.style.textAlign = 'right';
+
+
+            var thirdParagraph = document.getElementById('thirdParagraph');
+            thirdParagraph.style.color = 'red';
+            thirdParagraph.style.backgroundColor = 'lightcoral';
+            thirdParagraph.style.fontSize = '12px';
+            thirdParagraph.style.padding = '5px';
+            thirdParagraph.style.textAlign = 'left';
+        };
+    </script>
+</head>
+
+<body>
+
+    <p id="firstParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ea earum incidunt<br>
+        minima nihil. Blanditiis consectetur cumque debitis delectus dolor dolorem<br>
+        dolorum, eos laboriosam, modi nemo, quasi quos sint voluptatibus!</p>
+    <p id="secondParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ea earum incidunt<br>
+        minima nihil. Blanditiis consectetur cumque debitis delectus dolor dolorem<br>
+        dolorum, eos laboriosam, modi nemo, quasi quos sint voluptatibus!</p>
+    <p id="thirdParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ea earum incidunt<br>
+        minima nihil. Blanditiis consectetur cumque debitis delectus dolor dolorem<br>
+        dolorum, eos laboriosam, modi nemo, quasi quos sint voluptatibus!</p>
+
+    <table>
+        <tr>
+            <td class="selected"></td>
+            <td></td>
+            <td class="selected"></td>
+            <td></td>
+            <td class="selected"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="selected"></td>
+            <td></td>
+            <td class="selected"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="selected"></td>
+            <td></td>
+            <td class="selected"></td>
+            <td></td>
+            <td class="selected"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="selected"></td>
+            <td></td>
+            <td class="selected"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="selected"></td>
+            <td></td>
+            <td class="selected"></td>
+            <td></td>
+            <td class="selected"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
